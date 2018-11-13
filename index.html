@@ -3,9 +3,23 @@ layout: default
 ---
 
 <h1>Planets of the Universe</h1>
-<p>Lots of planets in the universe.</p>
+<p>A Planet is an astronomical object orbiting a star of stellar remnant that</p>
 
-<h2>Recently discovered Planets</h2>
+<h2>Types of Planets</h2>
+
+
+	<ol>
+		{% for planet in site.data.planet-types %}
+		<li>
+			<a href="#">{{planet.title}}</a>
+			{{planet.content | markdownify}}
+		</li>
+		{% endfor %}
+	</ol>
+
+
+
+<h2>Recently Discovered Planets</h2>
 
 <ul>
 	{% for post in site.categories.recently-discovered limit:2 %}
