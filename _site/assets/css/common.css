@@ -21,3 +21,18 @@ a{
 .nav-top{
 	font-size: 1.25rem;
 }
+
+.masthead{
+	padding: 1em;
+	background: #000531 url('../images/nebula.jpg') no-repeat center center;
+	background-size: cover;
+	color: white;
+
+}
+
+.masthead-planets{
+	
+	background: #000531 url('../images/nebula2.jpg') no-repeat center center;
+	background-size: cover;	
+
+}
