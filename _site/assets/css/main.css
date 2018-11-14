@@ -1,0 +1,91 @@
+html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica', sans-serif;
+
+}
+
+/*sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 200px;
+}
+
+a{
+  text-decoration: none;
+  color: #424242;
+
+}
+ul.planets li{
+  display: inline;
+  
+  
+}
+
+ul.planets li a{
+  padding: 5px;
+}
+.current{
+	background-color: #3f51b5;
+	color: white;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	margin: 10px;
+}
+
+.nav > li {
+	display: inline-block;
+}
+
+.nav-top{
+	font-size: 1.25rem;
+}
+.masthead{
+	padding: 1em;
+	background: #000531 url('../images/nebula2.jpg') no-repeat center center;
+	background-size: cover;
+	color: white;
+
+}
+
+.masthead-planets{
+	
+	background: #000531 url('../images/nebula2.jpg') no-repeat center center;
+	background-size: cover;	
+
+}
+footer{
+	height: 100px;
+	color: white;
+	background-color: #3f51b5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Avenir', sans-serif;
+	
+	
+}
+

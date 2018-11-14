@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<head>
-	<meta charset="utf-8">
-	<title>Planets of the Universe</title>
-	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css">
-</head>
+{% include head.html %}
 <body>
 	<header class="masthead {{page.mastheadClass}}">
 		<h1>Planets of the Universe</h1>
 		{% include nav.html navClass='nav-top' %}
 	</header>
-
-	{{content}}
-	{% include nav.html  navClass='nav-bottom' %}
+	<main>
+		{{content}}
+	</main>
+	{% include footer.html %}
 </body>
 </html>

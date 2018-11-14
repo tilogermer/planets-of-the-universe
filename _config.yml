@@ -1,3 +1,9 @@
 
 baseurl: /planets-of-the-universe
 exclude: ['READ.md']
+permalink: 'pretty'
+
+collections:
+  comets:
+    output: true
+    permalink: /comets/:path/
